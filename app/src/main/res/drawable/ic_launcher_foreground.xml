@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Beacon halo in the warning light colours. -->
+    <path
+        android:pathData="M31.45,45.79A24,24 0,0 1,42,33.22"
+        android:strokeWidth="4.5"
+        android:strokeColor="#FFFF4D4F"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M45.79,31.45A24,24 0,0 1,62.21,31.45"
+        android:strokeWidth="4.5"
+        android:strokeColor="#FF3D8BFF"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M66,33.22A24,24 0,0 1,76.55,45.79"
+        android:strokeWidth="4.5"
+        android:strokeColor="#FF2ECC71"
+        android:strokeLineCap="round" />
+    <!-- Light rays from the lamp. -->
+    <path
+        android:pathData="M64.5,72.19L67.5,77.38M54,75L54,81M43.5,72.19L40.5,77.38"
+        android:strokeWidth="3.5"
+        android:strokeColor="#CCFFB547"
+        android:strokeLineCap="round" />
+    <!-- Glow and lamp disc. -->
+    <path
+        android:fillColor="#33FFB547"
+        android:pathData="M54,54m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0" />
+    <path
+        android:fillColor="#FFFFB547"
+        android:pathData="M54,54m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0" />
+    <!-- The plus of Toolbox+. -->
+    <path
+        android:fillColor="#FF15110A"
+        android:pathData="M51.5,45h5a0.5,0.5 0,0 1,0.5 0.5v6h6a0.5,0.5 0,0 1,0.5 0.5v4a0.5,0.5 0,0 1,-0.5 0.5h-6v6a0.5,0.5 0,0 1,-0.5 0.5h-5a0.5,0.5 0,0 1,-0.5 -0.5v-6h-6a0.5,0.5 0,0 1,-0.5 -0.5v-4a0.5,0.5 0,0 1,0.5 -0.5h6v-6a0.5,0.5 0,0 1,0.5 -0.5z" />
+</vector>

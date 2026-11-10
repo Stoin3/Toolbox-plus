@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Single-colour version for themed icons: halo, rays and a lamp with the plus cut out. -->
+    <path
+        android:pathData="M31.45,45.79A24,24 0,0 1,42,33.22M45.79,31.45A24,24 0,0 1,62.21,31.45M66,33.22A24,24 0,0 1,76.55,45.79M64.5,72.19L67.5,77.38M54,75L54,81M43.5,72.19L40.5,77.38"
+        android:strokeWidth="4.5"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M54,54m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0M51.5,45h5a0.5,0.5 0,0 1,0.5 0.5v6h6a0.5,0.5 0,0 1,0.5 0.5v4a0.5,0.5 0,0 1,-0.5 0.5h-6v6a0.5,0.5 0,0 1,-0.5 0.5h-5a0.5,0.5 0,0 1,-0.5 -0.5v-6h-6a0.5,0.5 0,0 1,-0.5 -0.5v-4a0.5,0.5 0,0 1,0.5 -0.5h6v-6a0.5,0.5 0,0 1,0.5 -0.5z" />
+</vector>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Toolbox+</string>
+
+    <string name="camping_lamp">Camping lamp</string>
+    <string name="warning_lights">Warning lights</string>
+
+    <string name="state_off">Off</string>
+    <string name="state_on">On</string>
+
+    <string name="projector">Projector</string>
+    <string name="projector_toggle">Turn projector on or off</string>
+    <string name="projector_power_hint">Switching takes a few seconds. Wait 15 seconds between switches.</string>
+    <string name="projector_usb_connected">The projector won\'t turn on while a USB cable is connected.</string>
+    <string name="projector_too_soon">Please wait: the projector can only be switched once every 15 seconds.</string>
+    <string name="brightness">Brightness</string>
+    <string name="brightness_hint">Brightness is applied once the projector is on.</string>
+    <string name="keystone">Image correction</string>
+    <string name="auto_keystone">Auto keystone</string>
+    <string name="auto_keystone_hint">Straightens the image automatically when the phone is tilted.</string>
+
+    <string name="focus">Focus</string>
+    <string name="focus_hint">Focuses the image using the distance sensor (screen of the stock projector app).</string>
+    <string name="focus_needs_projector">Turn the projector on first.</string>
+    <string name="projector_all_settings">All projector settings</string>
+    <string name="projector_all_settings_hint">Opens the stock projector app for other settings.</string>
+    <string name="pin_tip_title">Keep your PIN off the wall</string>
+    <string name="pin_tip">The projected image can show your lock screen. Unlock with your fingerprint, or under Screen lock turn off \"Power button instantly locks\" and set a lock delay of 30 seconds or more.</string>
+    <string name="open_failed">This screen could not be opened.</string>
+
+    <string name="rangefinder">Rangefinder</string>
+    <string name="state_measuring">Measuring</string>
+    <string name="no_reading">No reading. Aim at a target within range.</string>
+    <string name="measure_once">Measure</string>
+    <string name="measure_live">Live</string>
+    <string name="measure_stop">Stop</string>
+    <string name="keep_reading">Save reading</string>
+    <string name="rangefinder_hint">Measures short distances with the infrared distance sensor. Aim the phone straight at a flat surface.</string>
+    <string name="measure_from_bottom">Measure from bottom edge</string>
+    <string name="measure_from_bottom_hint">Adds the length of the phone (18 cm), for measuring from a wall or floor.</string>
+    <string name="history">Recent readings</string>
+    <string name="clear">Clear</string>
+
+    <string name="fan">Fan</string>
+    <string name="fan_cooling">Cooling fan</string>
+    <string name="fan_hint">Cools the phone, for example while charging.</string>
+    <string name="fan_speed">Speed</string>
+    <string name="state_active">Active</string>
+    <string name="connected">Connected</string>
+    <string name="tile_not_connected">Open the app</string>
+
+    <string name="lamp_full">Full</string>
+    <string name="lamp_half">Half</string>
+    <string name="lamp_quarter">Quarter</string>
+    <string name="lamp_flash">Flash</string>
+    <string name="lamp_sos">SOS</string>
+    <string name="lamp_full_hint">Full stays on until you turn it off. If the phone gets warmer than 45 °C, the lamp drops to half to prevent overheating.</string>
+    <string name="max_lamp_running">At full brightness. Drops to half above 45 °C.</string>
+    <string name="max_lamp_too_hot">Phone reached %1$.0f °C. Lamp set back to half.</string>
+    <string name="turn_off">Turn off</string>
+
+    <string name="tab_lamp">Lamp</string>
+    <string name="tab_signal">Signal</string>
+    <string name="tab_projector">Projector</string>
+    <string name="tab_range">Distance</string>
+    <string name="lamp_toggle">Turn camping lamp on or off</string>
+
+    <string name="warning_toggle">Turn warning lights on or off</string>
+    <string name="colors">Colours</string>
+    <string name="color_red">Red</string>
+    <string name="color_blue">Blue</string>
+    <string name="color_green">Green</string>
+    <string name="pattern">Pattern</string>
+    <string name="style_flashing">Flashing</string>
+    <string name="style_always_on">Steady</string>
+    <string name="siren">Siren</string>
+    <string name="siren_none">No sound</string>
+    <string name="choose_siren">Choose a siren</string>
+    <string name="preview">Play preview</string>
+    <string name="stop_preview">Stop preview</string>
+
+    <string name="setup_title">Connection needed</string>
+    <string name="setup_intro">Toolbox+ controls the lights through a system service on your phone. Regular apps aren\'t allowed to open it themselves, so Toolbox+ uses Shizuku once to make the connection.</string>
+    <string name="setup_connecting">Connecting to the lights…</string>
+    <string name="setup_missing">Shizuku is not installed. Install Shizuku and start it with wireless debugging or ADB.</string>
+    <string name="setup_stopped">Shizuku is not running. This is needed after every restart of the phone. Tap \"Start Shizuku\", then tap \"Start\" in Shizuku.</string>
+    <string name="setup_permission">Allow Toolbox+ to use Shizuku.</string>
+    <string name="setup_denied">Permission was denied. Open Shizuku, go to Apps and turn on Toolbox+.</string>
+    <string name="setup_failed">Something went wrong: %1$s</string>
+    <string name="service_not_found">The lights service was not found on this phone.</string>
+    <string name="shizuku_too_old">This version of Shizuku is too old. Please update Shizuku.</string>
+    <string name="get_shizuku">Download Shizuku</string>
+    <string name="start_shizuku">Start Shizuku</string>
+    <string name="open_shizuku">Open Shizuku</string>
+    <string name="show_guide">Guide: set up Shizuku</string>
+    <string name="developer_options">Developer options</string>
+
+    <string name="guide_title">Set up Shizuku</string>
+    <string name="guide_intro">The one-time setup takes about 5 minutes. You don\'t need a computer, but you do need Wi-Fi.</string>
+    <string name="guide_setup_header">One-time setup</string>
+    <string name="guide_reboot_header">After restarting the phone</string>
+    <string name="guide_tips_header">Tips</string>
+    <string-array name="guide_setup_titles">
+        <item>Install Shizuku</item>
+        <item>Turn on developer options</item>
+        <item>Connect to Wi-Fi</item>
+        <item>Start pairing in Shizuku</item>
+        <item>Get a pairing code</item>
+        <item>Enter the code in Shizuku</item>
+        <item>Start Shizuku</item>
+        <item>Allow Toolbox+</item>
+    </string-array>
+    <string-array name="guide_setup_bodies">
+        <item>Tap \"Download Shizuku\" below, or search for \"Shizuku\" (by RikkaApps) in the Play Store and install it.</item>
+        <item>Go to Settings → About phone and tap \"Build number\" 7 times. Enter your PIN if asked. You\'ll see a message that you are now a developer.</item>
+        <item>Wireless debugging only works while the phone is connected to a Wi-Fi network. Your own hotspot doesn\'t count.</item>
+        <item>Open Shizuku. Under \"Start via Wireless debugging\", tap \"Pairing\". Allow notifications when Shizuku asks, because you enter the code through a notification.</item>
+        <item>Go to Settings → System → Developer options → Wireless debugging. Turn it on and tap \"Pair device with pairing code\". A 6-digit code appears. Stay on this screen.</item>
+        <item>Pull down the notification shade. In the Shizuku notification, tap \"Enter pairing code\" and type the 6 digits. You\'ll get a message that pairing succeeded.</item>
+        <item>Go back to Shizuku and tap \"Start\". After a few seconds it shows \"Shizuku is running\" at the top.</item>
+        <item>Open Toolbox+, tap \"Grant permission\" and then \"Allow all the time\". The lights can now be controlled.</item>
+    </string-array>
+    <string-array name="guide_reboot_bodies">
+        <item>Make sure you are connected to Wi-Fi.</item>
+        <item>Open Toolbox+ and tap \"Start Shizuku\", or tap one of the Toolbox+ quick settings tiles.</item>
+        <item>Tap \"Start\" in Shizuku. If wireless debugging is off, turn it on in developer options first.</item>
+        <item>Go back to Toolbox+. It connects by itself.</item>
+    </string-array>
+    <string-array name="guide_tips">
+        <item>Toolbox+ only needs Shizuku to connect. After that the lights keep working until the phone restarts, even if you stop Shizuku or turn off Wi-Fi.</item>
+        <item>Check Shizuku\'s settings for an option to start on boot. Then you don\'t need to do anything after a restart as long as there is Wi-Fi.</item>
+        <item>In developer options, turn on \"Disable adb authorization timeout\". Otherwise you have to pair again after 7 days without use.</item>
+        <item>No Wi-Fi at the campsite? After a restart the stock Toolbox app and the lamp\'s hardware button still work.</item>
+        <item>With a computer running ADB you can also start Shizuku with the command it shows under \"Start via connected computer\".</item>
+    </string-array>
+    <string name="grant_permission">Grant permission</string>
+    <string name="retry">Try again</string>
+    <string name="error_call">Command failed: %1$s</string>
+    <string name="keep_one_color">At least one colour must stay on.</string>
+
+    <!-- Same order as siren_1 … siren_31 in the stock warning lights app. -->
+    <string-array name="siren_titles">
+        <item>Fire alarm 1</item>
+        <item>Fire alarm 2</item>
+        <item>Fire alarm 3</item>
+        <item>Ambulance 1</item>
+        <item>Ambulance 2</item>
+        <item>Ambulance 3</item>
+        <item>Ambulance 4</item>
+        <item>Ambulance 5</item>
+        <item>Missile alert</item>
+        <item>Burglar alarm 1</item>
+        <item>Burglar alarm 2</item>
+        <item>Burglar alarm 3</item>
+        <item>Air raid siren 1</item>
+        <item>Air raid siren 2</item>
+        <item>Air raid siren 3</item>
+        <item>Air raid siren 4</item>
+        <item>Air raid siren 5</item>
+        <item>Buzzer</item>
+        <item>Nuclear alert</item>
+        <item>Police 1</item>
+        <item>Police 2</item>
+        <item>Police 3</item>
+        <item>Police 4</item>
+        <item>Police 5</item>
+        <item>Police 6</item>
+        <item>Police 7</item>
+        <item>Police 8</item>
+        <item>Radar alert</item>
+        <item>Car horn</item>
+        <item>Submarine 1</item>
+        <item>Submarine 2</item>
+    </string-array>
+</resources>
